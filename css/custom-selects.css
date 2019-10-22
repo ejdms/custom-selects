@@ -202,7 +202,7 @@
   }
 
   .custom-select:not(.only-list) li {
-    border-bottom: 2px solid #dedede;
+    border-bottom: 1px solid #dedede;
   }
 
   .custom-select:not(.only-list) label {
@@ -220,6 +220,7 @@
   .custom-select:not(.only-list) label.active {
     color: #333;
     background-color: #dedede;
+    margin: -1px 0;
   }
 
   .custom-select:not(.only-list) input[type="radio"] {
