@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Custom Selects</title>
+
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/custom-selects.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner">
+        <div class="custom-select">
+          <div class="title">Product:</div>
+          <ul>
+            <li>
+              <label class="active">
+                <input type="radio" checked name="product" />product 1
+              </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 2 </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 3 </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 4 </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 5 </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 6 </label>
+            </li>
+            <li>
+              <label> <input type="radio" name="product" />product 7 </label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="custom-select">
+          <div class="title">Sex:</div>
+          <ul>
+            <li>
+              <label class="active"
+                ><input type="radio" name="sex" checked />Men</label
+              >
+            </li>
+            <li>
+              <label><input type="radio" name="sex" />Women</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="custom-select">
+          <div class="title">
+            Size:
+          </div>
+          <ul>
+            <li>
+              <label><input type="radio" name="size" />S</label>
+            </li>
+            <li>
+              <label class="not-available"
+                ><input type="radio" name="size" />M</label
+              >
+            </li>
+            <li>
+              <label><input type="radio" name="size" />L</label>
+            </li>
+            <li>
+              <label class="not-available"
+                ><input type="radio" name="size" />XL</label
+              >
+            </li>
+            <li>
+              <label><input type="radio" name="size" />2XL</label>
+            </li>
+            <li>
+              <label><input type="radio" name="size" />3XL</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="custom-select only-list color-select">
+          <div class="title">Kolor:</div>
+          <ul>
+            <li>
+              <label class="active" style="background-color: #011d38;"
+                ><input type="radio" name="color"
+              /></label>
+            </li>
+            <li>
+              <label class="not-available" style="background-color: #1e5ebf;"
+                ><input type="radio" name="color"
+              /></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/custom-selects.js"></script>
+</html>
